@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('http://fonts.cdnfonts.com/css/aldhabi');
+
+html {
+  height: 100%;
+  background-color: #EBECEE;
+  margin: 25px;
+}
+
+body{
+  font-family: 'Lora', serif;
+  color: #292B36;
+  padding-top: 3%;
+}
+
+.name-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+#name {
+  letter-spacing: 1em;
+}
+#title {
+  letter-spacing: 1em;
+}
+
+#about-me, #education {
+  justify-content: center;
+  padding-left: 7em;
+  padding-right: 7em;
+}
+#about-me {
+  text-align: justify;
+}
+
+.about-education > div {
+  float: left;
+  width: auto;
+  max-width: 350px;
+}
+
+.about-education::after {
+  content: "";
+  display:table;
+  clear: both;
+  justify-content: center;
+}
+
+.experience {
+  padding-top: 5vh;
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+.experience > div {
+  float: left;
+  width: auto;
+  padding-right: 5em;
+}
+
+.experience::after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+p, li {
+  font-family: 'Lora', serif;
+  font-size: 1em;
+}
+
+#abd h2 {
+  font-family: 'Aldhabi'
+}
