@@ -116,7 +116,7 @@ body {
   width: 65vw;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 1em;
   font-weight: 400;
   text-align: left;
@@ -220,7 +220,7 @@ body {
 
   .experience {
     width: 70vw;
-    font-size: 0.8em;
+    font-size: 0.85em;
   }
 }
 
@@ -272,6 +272,6 @@ body {
   }
 
   .experience {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 }
