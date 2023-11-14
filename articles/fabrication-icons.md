@@ -27,6 +27,6 @@ The icon can also be used to represent different stages of the fabrication proce
 - A yellow cell could indicate a cell under fabrication, representing the fabrication phase.
 - A green cell could indicate a completed cell, representing the assembly phase.
 
-> The possibilities are limitless!
-
 We believe this new fabrication icon, with its simplicity, intuitiveness, standardization, and customizability, aptly represents the future of fabrication. It's a symbol that embodies the transformative power of fabrication, bridging the gap between traditional practices and the digital revolution.
+
+> The possibilities are limitless!
