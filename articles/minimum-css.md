@@ -1,6 +1,6 @@
 # Simplicity with Minimum.css
 
-**A Lightweight Stylesheet for Quick Styling**
+*A Lightweight Stylesheet for Quick Styling*
 
 ## The Manifesto
 
