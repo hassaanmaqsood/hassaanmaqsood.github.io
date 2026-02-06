@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hassaan - حسان</title>
+    <title>Hassaan Maqsood - حسان مقصود</title>
+    <link rel="shortcut icon" href="./images/hassaan_favicon_colour_outlined.svg" type="image/svg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rakkas&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet">
-    <link rel="shortcut icon" href="./hassaan.svg" type="image/svg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked@17.0.1/lib/marked.umd.min.js"></script>
+    <script src="./articles/articles.list.js"></script>
+    <script defer src="./scripts/index.js"></script>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <a href="#" class="logo">حسان</a>
+        </nav>
+    </header>
 
-  <header><div class="logo">حسان</div></header>
+    <main>
+        <section class="hero">
+            <p class="greetings">Hassaan Maqsood here!</p>
+            <h1 class="about">A lazy engineer who loves to observe, think, and tinker with the fundamentals.</h1>
 
-  <main>
 
-    <div class="intro">
-      <div class="greetings">Hassaan Maqsood here!</div>
-      <div class="about">A lazy engineer who loves to observe, think, and tinker with the fundamentals.</div>
+            <p>If you're here, it's likely because you appreciate thoughtful design, the value of innovation, and the
+                art of systems
+                that just work.</p>
+
+            <p>Let's not just fix the problem; <a class="highlight" href="">rethink it from the ground up</a>.</p>
+
+        </section>
+
+        <section class="filter" id="work">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="engineering">Engineering</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="research">Research</button>
+        </section>
+
+        <section class="projects"></section>
+    </main>
+
+    <div class="modal" id="projectModal">
+        <button class="close-btn" onclick="closeModal()">×</button>
+        <div class="modal-content">
+            <div class="modal-image" id="modalImage"></div>
+            <div class="modal-header">
+                <div class="modal-tags" id="modalTags"></div>
+                <h1 id="modalTitle"></h1>
+                <div class="modal-meta" id="modalMeta"></div>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
     </div>
 
-
-    <p>If you’re here, it’s likely because you appreciate thoughtful design, the value of innovation, and the art of systems
-    that just work.</p>
-
-    <p>Let's not just fix the problem; <a class="highlight">rethink it from the ground up</a>.</p>
-
-  </main>
-
+    <footer id="contact">
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="https://linkedin.com/in/hassaanmaqsood" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/hassaanmaqsood" target="_blank">GitHub</a></li>
+            </ul>
+            <p class="copyright">© 2026 Hassaan Maqsood</p>
+        </div>
+    </footer>
 </body>
 </html>
